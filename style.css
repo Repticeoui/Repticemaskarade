@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+	margin: 0px;
+	background-image: radial-gradient(circle, rgb(103 98 88 / 20%) 0%, rgb(132 132 132 / 30%) 100%), url(ariereplan.jpg);
+
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color
+  : #ff3300;
+  display: block;
+  margin: 24px auto;
+  width: 20%;
+  padding: 12px;
+  border-radius: 11px;
+  border: 2px solid #ff3300;
+  transition: 0.5s;
+  font-family: 'Anton', sans-serif;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #ff3300;
+  transition: 0.5s;
+}
+.banner {
+	background-image: radial-gradient(circle, rgb(103 98 88 / 58%) 0%, rgb(132 132 132 / 10%) 100%), url("photopanp.jpg");
+	height: 40vh;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding-top: 2px;
+	border-radius: 5px;
+	font-family: 'Anton', sans-serif; 
+}
+.box {
+	background-color: white;
+	text-align: center;
+	width: 250px;
+	padding-top: 50px;
+	box-shadow: 1px 1px 1px #00000066;
+	border-radius: 11px;
+	margin: 76px;
+	font-family: 'Staatliches', sans-serif;
+}
+.imagebox {
+	width: 225px;
+	border-radius: 11px;
+}
+.controlebox {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 12px;
+}
+.basdp {
+	background: linear-gradient(0deg, rgba(19,32,32,1) 0%, rgba(84,63,19,0.9167017148656338) 100%);
+	text-align: center;
+	padding: 12px 0px;
+	font-family: 'Dela Gothic One', cursive;
+	color: #ffffff;
+	font-size: 12;
+
+}
+.banner2 {
+	background-image: radial-gradient(circle, rgb(103 98 88 / 58%) 0%, rgb(132 132 132 / 10%) 100%), url(bbs.jpg);
+	background-size: cover;
+	background-position: 50px;
+	height: 40vh;
+}
+li {
+	display: inline;
+}
+
+li a {
+	font-size: 40px;
+	text-decoration: none;
+	color: #ff3300;
+}
+li a:hover {
+	color: white;
+	transition: 0.5s;
+}
